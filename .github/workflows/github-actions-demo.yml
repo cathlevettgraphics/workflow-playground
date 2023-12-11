@@ -10,7 +10,7 @@ on:
   workflow_dispatch:
 jobs: 
   Build: 
-    runs-on: unbuntu-latest
+    runs-on: ubuntu-latest
     steps: 
       - run: |
           echo "🎉 Whoo this job was triggered by the event: ${{ github.event.name}}"
